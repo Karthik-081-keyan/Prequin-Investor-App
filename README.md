@@ -14,7 +14,7 @@ Prequin Investor Backend API Project
 ## Technologies Used
 
 - [.NET Core](https://dotnet.microsoft.com/) - Framework for building applications
-- [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/) - ORM for database interactions
+- [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/) - ORM for database interactions, In-memory DB is being used in the project
 - [Swagger](https://swagger.io/) - API documentation and testing
 - [Moq](https://github.com/jbogard/MediatR) - Unit testing
 
@@ -103,5 +103,17 @@ The following API endpoints are available in this application:
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Karthik-081-keyan/Prequin-Investor-App.git
+   ```
+
+2. pull the latest changes:
+
+   ```bash
+   git pull
+   ```
+
+3. checkout to main branch:
+
+   ```bash
+   git checkout main
    ```
