@@ -4,8 +4,6 @@ using Investor.Domain.Model;
 using Investor.Infrastructure.Repository;
 using InvestorApp.Utilities;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.DependencyInjection.Extensions;
 using Serilog;
 
 namespace InvestorApp
@@ -73,7 +71,7 @@ namespace InvestorApp
 
             services.AddScoped<IInvestorRepository, InvestorRepository>();
             services.AddScoped<IInvestorService, InvestorService>();
-
+            services.AddScoped<ICommitmentService,CommitmentService>();
         }
 
     }

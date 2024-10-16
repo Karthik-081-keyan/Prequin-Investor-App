@@ -1,0 +1,121 @@
+2024-10-16 11:48:51.254 +05:30  INF  Saved 300 entities to in-memory store.
+2024-10-16 11:48:51.637 +05:30  INF  Now listening on: https://localhost:7031
+2024-10-16 11:48:51.637 +05:30  INF  Now listening on: http://localhost:5066
+2024-10-16 11:48:51.680 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-10-16 11:48:51.680 +05:30  INF  Hosting environment: Development
+2024-10-16 11:48:51.681 +05:30  INF  Content root path: C:\Users\karthikeyan.s\source\repos\InvestorApp\InvestorApp
+2024-10-16 11:48:51.926 +05:30  INF  Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2024-10-16 11:48:52.081 +05:30  INF  Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 161.3805ms
+2024-10-16 11:48:52.090 +05:30  INF  Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-16 11:48:52.097 +05:30  INF  Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.9183ms
+2024-10-16 11:48:52.103 +05:30  INF  Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2024-10-16 11:48:52.155 +05:30  INF  Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.242ms
+2024-10-16 11:48:52.177 +05:30  INF  Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2024-10-16 11:48:52.234 +05:30  INF  Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 57.4939ms
+2024-10-16 11:49:14.689 +05:30  INF  Request starting HTTP/2 GET https://localhost:7031/api/investors/all - null null
+2024-10-16 11:49:14.703 +05:30  INF  CORS policy execution successful.
+2024-10-16 11:49:14.705 +05:30  INF  Executing endpoint 'InvestorApp.Controllers.InvestorController.GetAllInvestors (InvestorApp)'
+2024-10-16 11:49:14.717 +05:30  INF  Route matched with {action = "GetAllInvestors", controller = "Investor"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllInvestors() on controller InvestorApp.Controllers.InvestorController (InvestorApp).
+2024-10-16 11:49:14.720 +05:30  INF  Executes GetAllInvestors
+2024-10-16 11:49:14.755 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Investor.Domain.DTO.InvestorDto, Investor.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-16 11:49:14.766 +05:30  INF  Request starting HTTP/2 GET https://localhost:7031/api/investors/all - null null
+2024-10-16 11:49:14.767 +05:30  INF  Executed action InvestorApp.Controllers.InvestorController.GetAllInvestors (InvestorApp) in 46.4135ms
+2024-10-16 11:49:14.767 +05:30  INF  CORS policy execution successful.
+2024-10-16 11:49:14.767 +05:30  INF  Executed endpoint 'InvestorApp.Controllers.InvestorController.GetAllInvestors (InvestorApp)'
+2024-10-16 11:49:14.767 +05:30  INF  Executing endpoint 'InvestorApp.Controllers.InvestorController.GetAllInvestors (InvestorApp)'
+2024-10-16 11:49:14.767 +05:30  INF  Route matched with {action = "GetAllInvestors", controller = "Investor"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllInvestors() on controller InvestorApp.Controllers.InvestorController (InvestorApp).
+2024-10-16 11:49:14.768 +05:30  INF  Request finished HTTP/2 GET https://localhost:7031/api/investors/all - 200 null application/json; charset=utf-8 79.1037ms
+2024-10-16 11:49:14.769 +05:30  INF  Executes GetAllInvestors
+2024-10-16 11:49:14.792 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Investor.Domain.DTO.InvestorDto, Investor.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-16 11:49:14.792 +05:30  INF  Executed action InvestorApp.Controllers.InvestorController.GetAllInvestors (InvestorApp) in 24.5047ms
+2024-10-16 11:49:14.792 +05:30  INF  Executed endpoint 'InvestorApp.Controllers.InvestorController.GetAllInvestors (InvestorApp)'
+2024-10-16 11:49:14.792 +05:30  INF  Request finished HTTP/2 GET https://localhost:7031/api/investors/all - 200 null application/json; charset=utf-8 26.9768ms
+2024-10-16 11:50:47.228 +05:30  INF  Request starting HTTP/2 GET https://localhost:7031/api/investors/Cza Weasley fund/commitment - null null
+2024-10-16 11:50:47.264 +05:30  INF  CORS policy execution successful.
+2024-10-16 11:50:47.264 +05:30  INF  Executing endpoint 'InvestorApp.Controllers.InvestorController.GetInvestorDetails (InvestorApp)'
+2024-10-16 11:50:47.279 +05:30  INF  Route matched with {action = "GetInvestorDetails", controller = "Investor"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetInvestorDetails(System.String) on controller InvestorApp.Controllers.InvestorController (InvestorApp).
+2024-10-16 11:50:47.372 +05:30  INF  Executing OkObjectResult, writing value of type 'Investor.Domain.DTO.CommitmentsDto'.
+2024-10-16 11:50:47.384 +05:30  INF  Request starting HTTP/2 GET https://localhost:7031/api/investors/Cza Weasley fund/commitment - null null
+2024-10-16 11:50:47.384 +05:30  INF  CORS policy execution successful.
+2024-10-16 11:50:47.384 +05:30  INF  Executing endpoint 'InvestorApp.Controllers.InvestorController.GetInvestorDetails (InvestorApp)'
+2024-10-16 11:50:47.384 +05:30  INF  Route matched with {action = "GetInvestorDetails", controller = "Investor"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetInvestorDetails(System.String) on controller InvestorApp.Controllers.InvestorController (InvestorApp).
+2024-10-16 11:50:47.417 +05:30  INF  Executed action InvestorApp.Controllers.InvestorController.GetInvestorDetails (InvestorApp) in 137.3156ms
+2024-10-16 11:50:47.417 +05:30  INF  Executing OkObjectResult, writing value of type 'Investor.Domain.DTO.CommitmentsDto'.
+2024-10-16 11:50:47.425 +05:30  INF  Executed action InvestorApp.Controllers.InvestorController.GetInvestorDetails (InvestorApp) in 39.8975ms
+2024-10-16 11:50:47.425 +05:30  INF  Executed endpoint 'InvestorApp.Controllers.InvestorController.GetInvestorDetails (InvestorApp)'
+2024-10-16 11:50:47.425 +05:30  INF  Executed endpoint 'InvestorApp.Controllers.InvestorController.GetInvestorDetails (InvestorApp)'
+2024-10-16 11:50:47.432 +05:30  INF  Request finished HTTP/2 GET https://localhost:7031/api/investors/Cza Weasley fund/commitment - 200 null application/json; charset=utf-8 216.3529ms
+2024-10-16 11:50:47.432 +05:30  INF  Request finished HTTP/2 GET https://localhost:7031/api/investors/Cza Weasley fund/commitment - 200 null application/json; charset=utf-8 51.4756ms
+2024-10-16 12:14:04.900 +05:30  INF  Saved 300 entities to in-memory store.
+2024-10-16 12:14:05.433 +05:30  INF  Now listening on: https://localhost:7031
+2024-10-16 12:14:05.434 +05:30  INF  Now listening on: http://localhost:5066
+2024-10-16 12:14:05.501 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-10-16 12:14:05.502 +05:30  INF  Hosting environment: Development
+2024-10-16 12:14:05.502 +05:30  INF  Content root path: C:\Users\karthikeyan.s\source\repos\InvestorApp\InvestorApp
+2024-10-16 12:14:05.848 +05:30  INF  Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2024-10-16 12:14:05.996 +05:30  INF  Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 151.1143ms
+2024-10-16 12:14:06.002 +05:30  INF  Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-16 12:14:06.008 +05:30  INF  Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.5463ms
+2024-10-16 12:14:06.016 +05:30  INF  Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2024-10-16 12:14:06.059 +05:30  INF  Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.8563ms
+2024-10-16 12:14:06.084 +05:30  INF  Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2024-10-16 12:14:06.094 +05:30  ERR  An unhandled exception has occurred while executing the request.Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/investors/{investorName}/commitment" for actions - InvestorApp.Controllers.CommitmentController.GetCommitmentDetails (InvestorApp),InvestorApp.Controllers.InvestorController.GetInvestorDetails (InvestorApp). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-10-16 12:14:06.108 +05:30  INF  Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 24.8044ms
+2024-10-16 12:14:33.282 +05:30  INF  Saved 300 entities to in-memory store.
+2024-10-16 12:14:33.538 +05:30  INF  Now listening on: https://localhost:7031
+2024-10-16 12:14:33.538 +05:30  INF  Now listening on: http://localhost:5066
+2024-10-16 12:14:33.579 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-10-16 12:14:33.579 +05:30  INF  Hosting environment: Development
+2024-10-16 12:14:33.579 +05:30  INF  Content root path: C:\Users\karthikeyan.s\source\repos\InvestorApp\InvestorApp
+2024-10-16 12:14:34.023 +05:30  INF  Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2024-10-16 12:14:34.184 +05:30  INF  Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 167.8118ms
+2024-10-16 12:14:34.193 +05:30  INF  Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-16 12:14:34.198 +05:30  INF  Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 4.7467ms
+2024-10-16 12:14:34.211 +05:30  INF  Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2024-10-16 12:14:34.243 +05:30  INF  Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.0323ms
+2024-10-16 12:14:34.320 +05:30  INF  Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2024-10-16 12:14:34.432 +05:30  INF  Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 112.9207ms
+2024-10-16 12:14:46.165 +05:30  INF  Request starting HTTP/2 GET https://localhost:7031/api/investors/all - null null
+2024-10-16 12:14:46.178 +05:30  INF  Executing endpoint 'InvestorApp.Controllers.InvestorController.GetAllInvestors (InvestorApp)'
+2024-10-16 12:14:46.212 +05:30  INF  Route matched with {action = "GetAllInvestors", controller = "Investor"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllInvestors() on controller InvestorApp.Controllers.InvestorController (InvestorApp).
+2024-10-16 12:14:46.221 +05:30  INF  Executes GetAllInvestors
+2024-10-16 12:14:46.337 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Investor.Domain.DTO.InvestorDto, Investor.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-16 12:14:46.373 +05:30  INF  Executed action InvestorApp.Controllers.InvestorController.GetAllInvestors (InvestorApp) in 153.0902ms
+2024-10-16 12:14:46.374 +05:30  INF  Executed endpoint 'InvestorApp.Controllers.InvestorController.GetAllInvestors (InvestorApp)'
+2024-10-16 12:14:46.376 +05:30  INF  Request finished HTTP/2 GET https://localhost:7031/api/investors/all - 200 null application/json; charset=utf-8 212.6148ms
+2024-10-16 12:14:58.523 +05:30  INF  Request starting HTTP/2 GET https://localhost:7031/api/investors/Ibx Skywalker ltd/commitment - null null
+2024-10-16 12:14:58.525 +05:30  INF  Executing endpoint 'InvestorApp.Controllers.CommitmentController.GetCommitmentDetails (InvestorApp)'
+2024-10-16 12:14:58.537 +05:30  INF  Route matched with {action = "GetCommitmentDetails", controller = "Commitment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCommitmentDetails(System.String) on controller InvestorApp.Controllers.CommitmentController (InvestorApp).
+2024-10-16 12:14:58.673 +05:30  INF  Executing OkObjectResult, writing value of type 'Investor.Domain.DTO.CommitmentsDto'.
+2024-10-16 12:14:58.684 +05:30  INF  Executed action InvestorApp.Controllers.CommitmentController.GetCommitmentDetails (InvestorApp) in 146.3173ms
+2024-10-16 12:14:58.684 +05:30  INF  Executed endpoint 'InvestorApp.Controllers.CommitmentController.GetCommitmentDetails (InvestorApp)'
+2024-10-16 12:14:58.685 +05:30  INF  Request finished HTTP/2 GET https://localhost:7031/api/investors/Ibx Skywalker ltd/commitment - 200 null application/json; charset=utf-8 162.9148ms
+2024-10-16 12:15:25.341 +05:30  INF  Saved 300 entities to in-memory store.
+2024-10-16 12:15:25.610 +05:30  INF  Now listening on: https://localhost:7031
+2024-10-16 12:15:25.611 +05:30  INF  Now listening on: http://localhost:5066
+2024-10-16 12:15:25.639 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-10-16 12:15:25.639 +05:30  INF  Hosting environment: Development
+2024-10-16 12:15:25.639 +05:30  INF  Content root path: C:\Users\karthikeyan.s\source\repos\InvestorApp\InvestorApp
+2024-10-16 12:15:26.290 +05:30  INF  Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2024-10-16 12:15:26.426 +05:30  INF  Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 139.1603ms
+2024-10-16 12:15:26.431 +05:30  INF  Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-16 12:15:26.434 +05:30  INF  Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 3.2917ms
+2024-10-16 12:15:26.455 +05:30  INF  Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2024-10-16 12:15:26.484 +05:30  INF  Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.1967ms
+2024-10-16 12:15:26.571 +05:30  INF  Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2024-10-16 12:15:26.643 +05:30  INF  Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 72.5958ms
+2024-10-16 12:15:33.610 +05:30  INF  Request starting HTTP/2 GET https://localhost:7031/api/commitments/Ibx Skywalker ltd - null null
+2024-10-16 12:15:33.624 +05:30  INF  Executing endpoint 'InvestorApp.Controllers.CommitmentController.GetCommitmentDetails (InvestorApp)'
+2024-10-16 12:15:33.665 +05:30  INF  Route matched with {action = "GetCommitmentDetails", controller = "Commitment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCommitmentDetails(System.String) on controller InvestorApp.Controllers.CommitmentController (InvestorApp).
+2024-10-16 12:15:33.873 +05:30  INF  Executing OkObjectResult, writing value of type 'Investor.Domain.DTO.CommitmentsDto'.
+2024-10-16 12:15:33.900 +05:30  INF  Executed action InvestorApp.Controllers.CommitmentController.GetCommitmentDetails (InvestorApp) in 227.891ms
+2024-10-16 12:15:33.901 +05:30  INF  Executed endpoint 'InvestorApp.Controllers.CommitmentController.GetCommitmentDetails (InvestorApp)'
+2024-10-16 12:15:33.903 +05:30  INF  Request finished HTTP/2 GET https://localhost:7031/api/commitments/Ibx Skywalker ltd - 200 null application/json; charset=utf-8 293.6611ms

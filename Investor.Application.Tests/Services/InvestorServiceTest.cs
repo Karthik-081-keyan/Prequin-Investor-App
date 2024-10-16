@@ -32,17 +32,6 @@ namespace Investor.Application.Tests.Services
             Assert.AreEqual(data.Count, res.Count);
         }
 
-        [Test]
-        public void GetCommitments_ReturnsInvestors()
-        {
-            //arrange
-            string investor = "test";
-            var data = new CommitmentsDto() { Commitments = new List<Commitment>() { new Commitment() } };
-            _repository.Setup(i => i.GetCommitments(It.IsAny<string>())).Returns(data);
-            //act
-            var res = _service.GetCommitments(investor);
-            //assert
-            Assert.AreEqual(data.Commitments.Count, res.Commitments.Count);
-        }
+       
     }
 }

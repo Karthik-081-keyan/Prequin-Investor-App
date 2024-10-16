@@ -31,15 +31,6 @@ namespace InvestorApp.Controllers
             return Ok(records);
         }
 
-        [HttpGet("{investorName}/commitment")]
-        [ProducesResponseType(typeof(CommitmentsDto), StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public IActionResult GetInvestorDetails([FromRoute]string investorName)
-        {
-            if (string.IsNullOrEmpty(investorName))
-                return BadRequest("Investor Name cannot be empty");
-            var data = _service.GetCommitments(investorName);
-            return Ok(data);
-        }
+
     }
 }
